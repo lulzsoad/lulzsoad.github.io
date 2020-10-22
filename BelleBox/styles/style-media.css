@@ -1,0 +1,79 @@
+@media only screen and (max-width: 600px) {
+    .motto-upper-navi{
+        display: none;
+    }
+    .header
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50vh;
+    }
+    .header-upper-navi
+    {
+        display: none;
+    }
+    .header-logo{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .header-logo {
+        height: 100%;
+    }
+    .header-logo img
+    {
+        height: 50vh;
+    }
+
+    .header-media-menu
+    
+    .questions > div
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 33.333%;
+    }
+    .questions > div > h2
+    {
+        text-align: center;
+    }
+    .product-collections > div 
+    {
+        
+        flex-direction: column;
+        
+    }
+    .product-collections > div:nth-child(2)
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .product-collections > div > div
+    {
+        width: 100%;
+    }
+
+    .footer-ul
+    {
+        display: none;
+    }
+
+    .footer-social-media
+    {
+        width: 100%;
+    }
+
+    .footer-social-media img 
+    {
+        width: 15vh;
+        padding-left: 2.5vh;
+        padding-right: 2.5vh;
+    }
+  }
