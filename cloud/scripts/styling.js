@@ -20,7 +20,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
             navBarElement.style.display = "flex";
             burgerMenuElement.style.color = "White"
             burgerMenuElementActive = true;
-            navBarElement.style.height = "200px";
+            navBarElement.style.height = "250px";
         }
         else {
             navBarElement.style.display = "none";
