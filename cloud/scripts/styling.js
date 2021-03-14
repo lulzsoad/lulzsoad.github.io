@@ -1,0 +1,39 @@
+let selectElement = document.querySelector('#selectService');
+let selectPlaceholder = document.querySelector('#selectPlaceholder');
+let burgerMenuElement = document.querySelector('#burgerMenu');
+let burgerMenuElementActive = false;
+let navBarElement = document.querySelector('#navBar');
+
+let colorTextMuted = "rgba(19, 39, 67, 0.3)";
+
+window.addEventListener('DOMContentLoaded', (event) => {
+    if(selectElement.value != selectPlaceholder.value){
+        selectElement.style.color = "black";
+    }
+    else {
+        selectElement.style.color = colorTextMuted;
+    }
+
+    burgerMenuElement.addEventListener('click', () => {
+
+        if(!burgerMenuElementActive) {
+            navBarElement.style.display = "flex";
+            burgerMenuElement.style.color = "White"
+            burgerMenuElementActive = true;
+        }
+        else {
+            navBarElement.style.display = "none";
+            burgerMenuElementActive = false;
+            burgerMenuElement.style.color = "Black"
+        }
+        
+    })
+});
+
+const selectStyling = () => {
+    ('#selectPlaceholder');
+
+    if(selectElement.value != selectPlaceholder.value){
+        selectElement.style.color = "black";
+    }
+}
