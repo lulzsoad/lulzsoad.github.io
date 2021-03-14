@@ -765,19 +765,19 @@ a {
   }
   .app-media {
     width: 100%;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-bottom: 50px;
   }
   .app-media > div:nth-of-type(1) {
     position: absolute;
-    margin-top: 17px;
-    margin-left: -40px;
+    margin-top: 0px;
     z-index: 0;
+    margin-right: 100px;
   }
   .app-media > div:nth-of-type(1) img {
     width: 315px;
@@ -797,9 +797,9 @@ a {
   }
   .app-media > div:nth-of-type(3) {
     position: absolute;
-    margin-top: 17px;
-    width: 80%;
-    left: 55px;
+    margin-top: 0px;
+    padding: 0;
+    margin-left: 100px;
     z-index: 0;
   }
   .app-media > div:nth-of-type(3) img {
@@ -969,12 +969,12 @@ a {
   }
   .app-media {
     width: 100%;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-bottom: 50px;
   }
   .app-media > div {
@@ -982,8 +982,9 @@ a {
   }
   .app-media > div:nth-of-type(1) {
     position: absolute;
-    margin-top: 17px;
-    margin-left: -40px;
+    margin-top: 0px;
+    padding: 0;
+    margin-right: 100px;
     z-index: 0;
   }
   .app-media > div:nth-of-type(1) img {
@@ -1004,12 +1005,13 @@ a {
   }
   .app-media > div:nth-of-type(3) {
     position: absolute;
-    margin-top: 17px;
-    width: 38%;
+    margin-top: 0px;
+    padding: 0;
+    width: 100px;
+    margin-left: 0;
     z-index: 0;
   }
   .app-media > div:nth-of-type(3) img {
-    float: right;
     width: 215px;
     height: 150px;
     height: auto;
