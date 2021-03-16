@@ -8,7 +8,6 @@ let formAlert = document.querySelector('#formAlert');
 let colorTextMuted = "rgba(19, 39, 67, 0.3)";
 
 window.addEventListener('DOMContentLoaded', (event) => {
-    formAlert.style.display = "none";
     if(selectElement.value != selectPlaceholder.value){
         selectElement.style.color = "black";
     }
