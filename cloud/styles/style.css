@@ -252,7 +252,10 @@ a {
   padding-left: 20%;
 }
 
-.logo div img {
+.logo div object {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   width: 24.65px;
   height: 17.4px;
 }
@@ -762,6 +765,9 @@ a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .app-icons object {
+    width: 50px;
   }
   .app-media {
     width: 100%;

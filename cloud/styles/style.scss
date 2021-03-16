@@ -74,7 +74,8 @@ a {
         flex-direction: row;
         width: 171px;
         padding-left: 20%;
-        img {
+        object {
+            align-self: center;
             width: 24.65px;
             height: 17.4px;
         }

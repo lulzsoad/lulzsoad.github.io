@@ -116,6 +116,9 @@
         margin-left: 10%;
         align-items: center;
         justify-content: center;
+        object {
+            width: 50px;
+        }
     }
 
     .app-media {
@@ -123,9 +126,7 @@
         align-items: center;
         justify-content: center;
         padding-bottom: 50px;
-        > div {
-            
-        } 
+        
         > div:nth-of-type(1) {
             position: absolute;
             margin-top: 0px;

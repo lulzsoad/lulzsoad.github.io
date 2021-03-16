@@ -19,7 +19,8 @@
                 
                 <div class="logo">
                     <div>
-                        <img src="/img/logo-1.png">&nbsp; CLOUDBUDGET
+                        <object data="./img/svg/logo.svg" type="image/svg+xml"></object>
+                        &nbsp; CLOUDBUDGET
                     </div>
                 </div>
                     <nav id="navBar">
@@ -90,7 +91,7 @@
                         </div>
                         <div class="technology-desc">
                             <div>
-                                <img src="./img/ant-design_cloud-download-outline.png">
+                                <object data="./img/svg/cloud.svg" type="image/svg+xml"></object>
                             </div>
                             <h2>Cloud Storage</h2>
                             <p>Access your account from anywhere in the world on any device</p>
@@ -102,7 +103,7 @@
                         </div>
                         <div class="technology-desc">
                             <div>
-                                <img src="./img/ant-design_security-scan-outline.png">
+                                <object data="./img/svg/secure.svg" type="image/svg+xml"></object>
                             </div>
                             <h2>Secure</h2>
                             <p>All your information is stored on secure cloud servers</p>
@@ -114,7 +115,7 @@
                         </div>
                         <div class="technology-desc">
                             <div>
-                                <img src="./img/iwwa-file-pdf.png">
+                                <object data="./img/svg/pdf.svg" type="image/svg+xml"></object>
                             </div>
                             <h2>PDF Download</h2>
                             <p>Download any of your reports in PDF format</p>
@@ -126,7 +127,7 @@
                         </div>
                         <div class="technology-desc">
                             <div>
-                                <img src="./img/iwwa-file-csv.png" width="47px" height="54px">
+                                <object data="./img/svg/csv.svg" type="image/svg+xml"></object>
                             </div>
                             <h2>CSV Download</h2>
                             <p>All your information is stored on secure cloud servers</p>
@@ -142,9 +143,9 @@
                         <p>It is important to stay focused on saving money in any way you can. We help you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join today to get started!</p>
     
                         <div class="app-icons">
-                            <img src="img/ion-logo-google-playstore.png"> 
-                            <img src="./img/ion-logo-apple-appstore.png">
-                            <img src="./img/simple-icons_windows.png">
+                            <object data="./img/svg/ion-logo-google-playstore.svg" type="image/svg+xml"></object>
+                            <object data="./img/svg/ion-logo-apple-appstore.svg" type="image/svg+xml"></object>
+                            <object data="./img/svg/simple-icons_windows.svg" type="image/svg+xml"></object>
                         </div>
                     </div>
                 </div>
@@ -163,12 +164,12 @@
                     </div>
                 </div>
                 <div>
-                    <form action="#">
-                        <input id="firstName" name="firstName" type="text" required placeholder="First Name">
-                        <input id="lastName" name="lastName" type="text" required placeholder="Last Name">
-                        <input id="phoneNumber" name="phoneNumber" type="text" required placeholder="Phone Number">
+                    <form id="form" >
+                        <input required id="firstName" name="firstName" type="text" placeholder="First Name">
+                        <input required id="lastName" name="lastName" type="text"  placeholder="Last Name">
+                        <input required id="phoneNumber" name="phoneNumber" type="text" placeholder="Phone Number">
                         <div class="select-container">
-                            <select id="selectService" name="selectService" onchange="selectStyling()" required>
+                            <select required id="selectService" name="selectService" onchange="selectStyling()">
                                 <option id="selectPlaceholder" disabled selected>Select Service</option>
                                 <option>Customer Service</option>
                                 <option>Job</option>
@@ -188,7 +189,7 @@
         </main>
     </div>
 
-    <script src="https://kit.fontawesome.com/0fdcba151e.js" crossorigin="anonymous"></script>
     <script src="./scripts/styling.js"></script>
+    <script src="./scripts/formValidate.js"></script>
 </body>
 </html>
